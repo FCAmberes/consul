@@ -2,3 +2,50 @@
 //
 // You can also create SCSS files in the app/assets/stylesheets/custom/
 // folder and they will be loaded automatically.
+.top-bar {
+  .top-bar-title {
+    line-height: $line-height;
+    a img {
+      height: rem-calc(72) !important;
+      margin: 0;
+      width: auto;
+      @include breakpoint(medium up) {
+        height: auto;
+      }
+    }
+  }
+}
+.button:hover,
+.button:focus {
+  background-color: $yellow;
+}
+.locale-form {
+  .locale-switcher {
+    background: darken($white, 10%);
+    border: 0;
+    border-radius: rem-calc(4);
+    color: $black;
+    font-size: $small-font-size;
+    height: $line-height;
+    margin-bottom: 0;
+    margin-top: $line-height / 4;
+    outline: none;
+    padding: 0 $line-height / 4;
+    width: auto;
+    &:focus {
+      outline: $outline-focus;
+    }
+  }
+}
+.top-bar-title {
+  margin-left: 15px;
+}
+.top-bar-center-title {
+  font-size: rem-calc(18);
+  @include breakpoint(medium down) {
+    display: none;
+  }
+}
+.auth-image {
+  background: $brand;
+}
