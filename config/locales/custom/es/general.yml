@@ -1,3 +1,7 @@
 es:
   application:
     title: Portal de participación ciudadana de la Fundación Carlos de Amberes
+  account:
+    show:
+      user_permission_support_proposal: Apoyar propuestas
+      user_permission_votes: Participar en las votaciones finales
