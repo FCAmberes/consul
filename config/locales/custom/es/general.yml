@@ -5,3 +5,6 @@ es:
     show:
       user_permission_support_proposal: Apoyar propuestas
       user_permission_votes: Participar en las votaciones finales
+  layouts:
+    header:
+      collaborative_legislation: Procesos
