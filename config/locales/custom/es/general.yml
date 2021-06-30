@@ -8,3 +8,9 @@ es:
   layouts:
     header:
       collaborative_legislation: Procesos
+    footer:
+      conditions: Aviso legal
+  form:
+    accept_terms: Acepto la %{policy} y el %{conditions}
+    accept_terms_title: Acepto la Política de privacidad y el Aviso legal
+    conditions: Aviso legal
