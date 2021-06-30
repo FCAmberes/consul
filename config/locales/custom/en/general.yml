@@ -1,0 +1,18 @@
+en:
+  application:
+    title: Citizen participation portal Fundación Carlos de Amberes
+  account:
+    show:
+      user_permission_support_proposal: Support proposals
+      user_permission_votes: Participate in final votings
+  layouts:
+    header:
+      collaborative_legislation: Processes
+    footer:
+      conditions: Legal warning
+      contact_us: For technical support please contact <a href='mailto:fundacioncarlosdeamberes@gmail.com'>fundacioncarlosdeamberes@gmail.com</a>
+      support: Thanks to the support of
+  form:
+    accept_terms: I accept %{policy} and %{conditions}
+    accept_terms_title: I accept Privacy policy and Legal warning
+    conditions: Legal warning
