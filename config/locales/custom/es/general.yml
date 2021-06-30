@@ -10,6 +10,8 @@ es:
       collaborative_legislation: Procesos
     footer:
       conditions: Aviso legal
+      contact_us: Para asistencia técnica escribe a <a href='mailto:fundacioncarlosdeamberes@gmail.com'>fundacioncarlosdeamberes@gmail.com</a>
+      support: Gracias al apoyo de
   form:
     accept_terms: Acepto la %{policy} y el %{conditions}
     accept_terms_title: Acepto la Política de privacidad y el Aviso legal
