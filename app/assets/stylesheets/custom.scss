@@ -55,3 +55,18 @@
 .auth-image {
   background: $brand;
 }
+
+.footer-images {
+  width: 100%;
+  max-width: 700px;
+  display: block;
+  text-align: right;
+  img {
+    max-width: 100%;
+    max-height: 120px;
+    margin: auto;
+  }
+  img:last-child {
+    max-height: 70px;
+  }
+}

@@ -1,6 +1,7 @@
 class UserSegments
   SEGMENTS = %w[all_users
                 administrators
+                newsletter_subscribers
                 all_proposal_authors
                 proposal_authors
                 investment_authors
@@ -15,6 +16,10 @@ class UserSegments
 
   def self.administrators
     all_users.administrators
+  end
+
+  def self.newsletter_subscribers
+    User.active.newsletter
   end
 
   def self.all_proposal_authors
@@ -52,7 +57,7 @@ class UserSegments
   end
 
   def self.user_segment_emails(users_segment)
-    UserSegments.send(users_segment).newsletter.order(:created_at).pluck(:email).compact
+    UserSegments.send(users_segment).order(:created_at).pluck(:email).compact
   end
 
   private

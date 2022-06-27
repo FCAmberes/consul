@@ -824,6 +824,7 @@ es:
     segment_recipient:
       all_users: Todos los usuarios
       administrators: Administradores
+      newsletter_subscribers: Usuarios suscritos a la newsletter
       all_proposal_authors: Usuarios autores de propuestas (incluyendo archivadas y retiradas)
       proposal_authors: Usuarios autores de propuestas
       investment_authors: Usuarios autores de proyectos de gasto en los actuales presupuestos
